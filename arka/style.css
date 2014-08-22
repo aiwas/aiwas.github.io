@@ -1,0 +1,186 @@
+/*
+	Stylesheet for pages including arka
+						written by aiwas
+*/
+/* Define xistina */
+/*
+$seliit: #dab6ff;
+$kmin: #a842f0;
+$nalnia:#c589e2;
+$etek-e-miir: #a823d4;
+$janz: #b662c6;
+$saalin: #aa0ab8;
+$asenz: #aa41aa;
+$lejemme: #ff00ff;
+$alhoora: #e56af0;
+$iire-t'oova: #c118e2;
+edan	#bc75d4;
+obiya	#932bc6;
+sandal	#9e7ab8;
+uwe	#7138aa;
+verleej	#240048;
+durne t'avelant	#422656;
+sandik	#460b64;
+erie	#653f72;
+depi	#701c80;
+kern e verial	#8a5e8e;
+vendiil	#9c339c;
+vortlejemme	#483348;
+arvekt	#511756;
+bezaspelen	#5e3c64;
+viuwe	#5a1272;
+nemp	#6b3f80;
+reb	#56078e;
+elyundite	#6c3c9c;
+*/
+@font-face { font-family: 'Arka'; src: url("./font/arka.ttf") format("truetype"), url("./font/arka.woff") format("woff"), url("./font/arka.eot"); }
+* { margin: 0px; padding: 0px; box-sizing: border-box; -webkit-box-align: center; text-align: center; font-family: "DejaVu Sans"; }
+
+body { background-color: #fff; }
+
+td { width: 100px; height: 100px; border: 1px solid #aaa; }
+
+h1 { margin: 30px 0px 0px 0px; text-align: center; font-size: 50px; }
+
+p { font-family: 'Meiryo'; font-size: 20px; }
+
+a { font-family: inherit; text-decoration: none; color: #8cc; }
+
+a:hover { color: #88c; }
+
+footer p { font-size: 10px; }
+
+#calender { margin: auto; }
+#calender table { display: inline-block; min-width: 720px; border-collapse: separate; border-spacing: 1px; padding: 1px; border: 5px solid rgba(255, 255, 255, 0); border-radius: 5px; background-color: rgba(255, 255, 255, 0.5); font-size: 20px; /*
+&:nth-child(12) {
+	tr {
+		&:nth-child(3) td {
+				&:nth-child(1) { background-color: ; }
+				&:nth-child(2) { background-color: ; }
+				&:nth-child(3) { background-color: ; }
+				&:nth-child(4) { background-color: ; }
+				&:nth-child(5) { background-color: ; }
+				&:nth-child(6) { background-color: ; }
+				&:nth-child(7) { background-color: ; }
+		}
+		&:nth-child(4) td {
+				&:nth-child(1) { background-color: ; }
+				&:nth-child(2) { background-color: ; }
+				&:nth-child(3) { background-color: ; }
+				&:nth-child(4) { background-color: ; }
+				&:nth-child(5) { background-color: ; }
+				&:nth-child(6) { background-color: ; }
+				&:nth-child(7) { background-color: ; }
+		}
+		&:nth-child(5) td {
+				&:nth-child(1) { background-color: ; }
+				&:nth-child(2) { background-color: ; }
+				&:nth-child(3) { background-color: ; }
+				&:nth-child(4) { background-color: ; }
+				&:nth-child(5) { background-color: ; }
+				&:nth-child(6) { background-color: ; }
+				&:nth-child(7) { background-color: ; }
+		}
+		&:nth-child(6) td {
+				&:nth-child(1) { background-color: ; }
+				&:nth-child(2) { background-color: ; }
+				&:nth-child(3) { background-color: ; }
+				&:nth-child(4) { background-color: ; }
+				&:nth-child(5) { background-color: ; }
+				&:nth-child(6) { background-color: ; }
+				&:nth-child(7) { background-color: ; }
+		}
+	}
+}*/ }
+#calender table tr td { /*a color when selecting*/ color: InactiveBorder; }
+#calender table tr td:hover { font-family: 'Arka'; }
+#calender table tr:nth-child(1) td { height: 30px; color: #000; }
+#calender table tr:nth-child(2) td { height: 30px; color: #000; }
+#calender table:nth-child(1) tr:nth-child(3) td:nth-child(1) { background-color: #dab6ff; }
+#calender table:nth-child(1) tr:nth-child(3) td:nth-child(2) { background-color: #a842f0; }
+#calender table:nth-child(1) tr:nth-child(3) td:nth-child(3) { background-color: #c589e2; }
+#calender table:nth-child(1) tr:nth-child(3) td:nth-child(4) { background-color: #a823d4; }
+#calender table:nth-child(1) tr:nth-child(3) td:nth-child(5) { background-color: #b662c6; }
+#calender table:nth-child(1) tr:nth-child(3) td:nth-child(6) { background-color: #aa0ab8; }
+#calender table:nth-child(1) tr:nth-child(3) td:nth-child(7) { background-color: #aa41aa; }
+#calender table:nth-child(1) tr:nth-child(4) td:nth-child(1) { background-color: #ff00ff; }
+#calender table:nth-child(1) tr:nth-child(4) td:nth-child(2) { background-color: #e56af0; }
+#calender table:nth-child(1) tr:nth-child(4) td:nth-child(3) { background-color: #c118e2; }
+#calender table:nth-child(1) tr:nth-child(4) td:nth-child(4) { background-color: #bc75d4; }
+#calender table:nth-child(1) tr:nth-child(4) td:nth-child(5) { background-color: #932bc6; }
+#calender table:nth-child(1) tr:nth-child(4) td:nth-child(6) { background-color: #9e7ab8; }
+#calender table:nth-child(1) tr:nth-child(4) td:nth-child(7) { background-color: #7138aa; }
+#calender table:nth-child(1) tr:nth-child(5) td:nth-child(1) { background-color: #240048; }
+#calender table:nth-child(1) tr:nth-child(5) td:nth-child(2) { background-color: #422656; }
+#calender table:nth-child(1) tr:nth-child(5) td:nth-child(3) { background-color: #460b64; }
+#calender table:nth-child(1) tr:nth-child(5) td:nth-child(4) { background-color: #653f72; }
+#calender table:nth-child(1) tr:nth-child(5) td:nth-child(5) { background-color: #701c80; }
+#calender table:nth-child(1) tr:nth-child(5) td:nth-child(6) { background-color: #8a5e8e; }
+#calender table:nth-child(1) tr:nth-child(5) td:nth-child(7) { background-color: #9c339c; }
+#calender table:nth-child(1) tr:nth-child(6) td:nth-child(1) { background-color: #483348; }
+#calender table:nth-child(1) tr:nth-child(6) td:nth-child(2) { background-color: #511756; }
+#calender table:nth-child(1) tr:nth-child(6) td:nth-child(3) { background-color: #5e3c64; }
+#calender table:nth-child(1) tr:nth-child(6) td:nth-child(4) { background-color: #5a1272; }
+#calender table:nth-child(1) tr:nth-child(6) td:nth-child(5) { background-color: #6b3f80; }
+#calender table:nth-child(1) tr:nth-child(6) td:nth-child(6) { background-color: #56078e; }
+#calender table:nth-child(1) tr:nth-child(6) td:nth-child(7) { background-color: #6c3c9c; }
+#calender table:nth-child(2) tr:nth-child(3) td:nth-child(1) { background-color: #b6b6ff; }
+#calender table:nth-child(2) tr:nth-child(3) td:nth-child(2) { background-color: #5042f0; }
+#calender table:nth-child(2) tr:nth-child(3) td:nth-child(3) { background-color: #9889e2; }
+#calender table:nth-child(2) tr:nth-child(3) td:nth-child(4) { background-color: #4f23d4; }
+#calender table:nth-child(2) tr:nth-child(3) td:nth-child(5) { background-color: #8362c6; }
+#calender table:nth-child(2) tr:nth-child(3) td:nth-child(6) { background-color: #520ab8; }
+#calender table:nth-child(2) tr:nth-child(3) td:nth-child(7) { background-color: #7641aa; }
+#calender table:nth-child(2) tr:nth-child(4) td:nth-child(1) { background-color: #7f00ff; }
+#calender table:nth-child(2) tr:nth-child(4) td:nth-child(2) { background-color: #a26af0; }
+#calender table:nth-child(2) tr:nth-child(4) td:nth-child(3) { background-color: #5c18e2; }
+#calender table:nth-child(2) tr:nth-child(4) td:nth-child(4) { background-color: #8d75d4; }
+#calender table:nth-child(2) tr:nth-child(4) td:nth-child(5) { background-color: #452bc6; }
+#calender table:nth-child(2) tr:nth-child(4) td:nth-child(6) { background-color: #7f7ab8; }
+#calender table:nth-child(2) tr:nth-child(4) td:nth-child(7) { background-color: #3838aa; }
+#calender table:nth-child(2) tr:nth-child(5) td:nth-child(1) { background-color: #000048; }
+#calender table:nth-child(2) tr:nth-child(5) td:nth-child(2) { background-color: #2a2656; }
+#calender table:nth-child(2) tr:nth-child(5) td:nth-child(3) { background-color: #1a0b64; }
+#calender table:nth-child(2) tr:nth-child(5) td:nth-child(4) { background-color: #4c3f72; }
+#calender table:nth-child(2) tr:nth-child(5) td:nth-child(5) { background-color: #3d1c80; }
+#calender table:nth-child(2) tr:nth-child(5) td:nth-child(6) { background-color: #725e8e; }
+#calender table:nth-child(2) tr:nth-child(5) td:nth-child(7) { background-color: #68339c; }
+#calender table:nth-child(2) tr:nth-child(6) td:nth-child(1) { background-color: #3e3348; }
+#calender table:nth-child(2) tr:nth-child(6) td:nth-child(2) { background-color: #321756; }
+#calender table:nth-child(2) tr:nth-child(6) td:nth-child(3) { background-color: #4a3c64; }
+#calender table:nth-child(2) tr:nth-child(6) td:nth-child(4) { background-color: #2a1272; }
+#calender table:nth-child(2) tr:nth-child(6) td:nth-child(5) { background-color: #4a3f80; }
+#calender table:nth-child(2) tr:nth-child(6) td:nth-child(6) { background-color: #13078e; }
+#calender table:nth-child(2) tr:nth-child(6) td:nth-child(7) { background-color: #3c3c9c; }
+#calender table:nth-child(13) tr:nth-child(3) td:nth-child(1) { background-color: #ffbf00; }
+#calender table:nth-child(13) tr:nth-child(3) td:nth-child(2) { background-color: #a3893a; }
+#calender table:nth-child(13) tr:nth-child(3) td:nth-child(3) { background-color: #484333; }
+#calender table:nth-child(13) tr:nth-child(3) td:nth-child(4) { background-color: #b87333; }
+#calender table:nth-child(13) tr:nth-child(3) td:nth-child(5) { background-color: #ff00bf; }
+#calender table:nth-child(13) tr:nth-child(3) td:nth-child(6) { background-color: #a33a89; }
+#calender table:nth-child(13) tr:nth-child(3) td:nth-child(7) { background-color: #483343; }
+#calender table:nth-child(13) tr:nth-child(4) td:nth-child(1) { background-color: #003fff; }
+#calender table:nth-child(13) tr:nth-child(4) td:nth-child(2) { background-color: #3a54a3; }
+#calender table:nth-child(13) tr:nth-child(4) td:nth-child(3) { background-color: #333948; }
+#calender table:nth-child(13) tr:nth-child(4) td:nth-child(4) { background-color: #ffd700; }
+#calender table:nth-child(13) tr:nth-child(4) td:nth-child(5) { background-color: #00ff3f; }
+#calender table:nth-child(13) tr:nth-child(4) td:nth-child(6) { background-color: #3aa354; }
+#calender table:nth-child(13) tr:nth-child(4) td:nth-child(7) { background-color: #334839; }
+#calender table:nth-child(13) tr:nth-child(5) td:nth-child(1) { background-color: #ffffff; }
+#calender table:nth-child(13) tr:nth-child(5) td:nth-child(2) { background-color: #ebebeb; }
+#calender table:nth-child(13) tr:nth-child(5) td:nth-child(3) { background-color: #d7d7d7; }
+#calender table:nth-child(13) tr:nth-child(5) td:nth-child(4) { background-color: #c4c4c4; }
+#calender table:nth-child(13) tr:nth-child(5) td:nth-child(5) { background-color: #b0b0b0; }
+#calender table:nth-child(13) tr:nth-child(5) td:nth-child(6) { background-color: #9c9c9c; }
+#calender table:nth-child(13) tr:nth-child(5) td:nth-child(7) { background-color: #898989; }
+#calender table:nth-child(13) tr:nth-child(6) td:nth-child(1) { background-color: #757575; }
+#calender table:nth-child(13) tr:nth-child(6) td:nth-child(2) { background-color: #626262; }
+#calender table:nth-child(13) tr:nth-child(6) td:nth-child(3) { background-color: #4e4e4e; }
+#calender table:nth-child(13) tr:nth-child(6) td:nth-child(4) { background-color: #3a3a3a; }
+#calender table:nth-child(13) tr:nth-child(6) td:nth-child(5) { background-color: #272727; }
+#calender table:nth-child(13) tr:nth-child(6) td:nth-child(6) { background-color: #131313; }
+#calender table:nth-child(13) tr:nth-child(6) td:nth-child(7) { background-color: #000000; }
+#calender table:nth-child(15) { min-width: 212px; }
+#calender table:nth-child(15) tr:nth-child(2) td { height: 100px !important; /*decide where should use after*/ word-break: break-all; }
+#calender table:nth-child(15) tr:nth-child(2) td:nth-child(1) { background-color: #002200; }
+#calender table:nth-child(15) tr:nth-child(2) td:nth-child(2) { background-color: #f8dad2; }
